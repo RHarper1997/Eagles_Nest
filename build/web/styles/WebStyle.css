@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 23, 2018, 1:37:04 PM
+    Author     : regin
+*/
+header{
+    border: solid black;
+    width: 100%;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+header h1{
+    margin-left: 35%;
+}
+header p{
+    text-align: right;
+}
+#eagles{
+    width:150px;
+    height:100px;
+    vertical-align: middle;
+}
+#usernav{
+    text-align:center;
+    border:solid black;
+    width:100%;
+    background-color: lightgray;
+}
+#usernav ul{
+    list-style: none;
+}
+#usernav li{
+    display:inline;
+    padding: 10px;
+}
+
+#webnav{
+    text-align:center;
+    border:solid black;
+    width:15%;
+    height:100%;
+    background-color: lightgray;
+    margin-top: 10px;
+    float:left;
+}
+#webnav ul{
+    list-style: none;
+    text-align: left;
+}
+#webnav li{
+    padding-bottom: 25px;
+}
+main{
+    float: right;
+    width:60%;
+    margin-right: 20%;
+    margin-top:10px;
+}
+main h2{
+    padding-left:10px;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+footer{
+    border:solid black;
+    background-color: lightgray;
+    clear:both;
+    margin-top:275px;
+    height:30px;
+}
+#categories li{
+    font-size: x-large;
+}
+.pic{
+    height:200px;
+    width:300px;
+    float:left;
+    margin-right:20px;
+}
+.checked {
+    color: orange;
+}
+.stats{
+    list-style: none;
+}
+td{
+    border: 1px solid black;
+    padding-left:5px;
+    padding-right:5px;
+}
+a.button{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color:initial;
+    padding:2px;
+}
+
+th{
+    border: 1px solid black;
+    padding-left:5px;
+    padding-right:5px;
+    text-align: left;
+}
+
+
